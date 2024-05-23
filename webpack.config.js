@@ -1,0 +1,19 @@
+//处理当前文件目录
+const path = require('path');
+module.exports={
+    //入口文件配置项
+    entry:{
+        main:''
+    },
+    //出口文件配置项
+    output:{
+        path:path.resolve(__dirname),
+        filename:''
+    },
+    //模块：解读css，图片如何转换，压缩
+    module:{},
+    //插件，用于生产模板和各项功能
+    plugins:{},
+    //配置webpack开发服务功能
+    devServer:{}
+}
