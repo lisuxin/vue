@@ -1,13 +1,13 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import Interposition from "./components/Interposition.vue";
+import axios from './components/Axios.vue';
 </script>
 
 <template>
   <div>
-    <interposition/>
+   <axios>12</axios>
   </div>
 </template>
 
 <style scoped>
+
 </style>
